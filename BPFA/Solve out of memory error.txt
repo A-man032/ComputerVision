@@ -1,0 +1,27 @@
+http://www.mathworks.com/access/helpdesk/help/techdoc/index.html?/access/helpdesk/help/techdoc/matlab_prog/brh72ex-49.html&http://www.google.com/search?hl=en&q=matlab+Set+the+3GB+switch+on+32-bit+Windows+XP&aq=f&oq=&aqi=
+
+
+Following are the instructions for allowing Matlab to manage 3GB memory 
+instead of the default 2GB memory in Windows XP. This should be helpful
+to solve the "out of memory" error.
+
+
+
+  1.. Right-click My Computer and select Properties. The System Properties 
+dialog box will appear.
+
+  2.. Click the Advanced tab.
+
+  3.. In the Startup and Recovery area, click Settings. The Startup and 
+Recovery dialog box will appear.
+
+  4.. In the System startup area, click Edit. This will open the Windows 
+boot.ini file in Notepad.
+
+  5.. In the [Operating Systems] section, add the following switches to the 
+end of the startup line that includes the /fastdetect switch: /3GB
+
+  6.. Save the changes and close Notepad.
+
+  7.. Click OK two times to close the open dialog boxes, and then restart 
+the computer for the change to take effect.
